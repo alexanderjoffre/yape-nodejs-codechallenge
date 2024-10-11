@@ -4,10 +4,6 @@ export class Transaction {
 		private value: number
 	) {}
 
-	private validateAmount(): boolean {
-		return this.value <= 1000;
-	}
-
 	public getTransactionID(): string {
 		return this.transactionId;
 	}
