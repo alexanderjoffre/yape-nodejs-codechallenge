@@ -49,8 +49,9 @@ APP_ID=ms-transactions
 MONGODB_CONNECTION_URL=mongodb://localhost:27017/yape-anti-fraud
 
 KAFKA_BROKER=localhost:9092
-KAFKA_CLIENT_ID=ms-transactions
-KAFKA_GROUP_ID=ms-transactions
+KAFKA_CLIENT_ID=yape
+KAFKA_GROUP_ID=yape
+KAFKA_SUBSCRIBE_TOPICS=trx-rejected,trx-approved
 ```
 ### 3.4 Initiate service
 ```bash
