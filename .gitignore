@@ -105,7 +105,12 @@ typings/
 # subfolders
 /ms-transactions/application.log
 /ms-transactions/error.log
+
 /ms-fraud-detector/application.log
 /ms-fraud-detector/error.log
+
+/ms-fraud-detector/*.env
+/ms-fraud-detector/*.env
+
 /ms-fraud-detector/node_modules/
 /ms-transactions/node_modules/
