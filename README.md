@@ -56,4 +56,4 @@ KAFKA_GROUP_ID=ms-transactions
 ```bash
 npm run start
 ```
-NOTE: to see the full documentation, once it was initiated, you can visite *[ms-transactions API Docs](http://localhost:3000/docs)*
+**NOTE**: to see the full documentation, once it was initiated, you can visite *[ms-transactions API Docs](http://localhost:3000/docs)*
